@@ -1,0 +1,415 @@
+@font-face{
+    font-family:"infinitY";
+    src: url(Manrope-VariableFont_wght.ttf);
+  }
+  
+  body{
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height:100%;
+      background-color:#FFF ;
+      line-height: 1.5;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: normal;
+      text-align: center;
+      text-decoration: none;
+      overflow: scroll;
+      overflow-x: hidden;
+      background-color:#1B1C1D;
+  }
+  body::-webkit-scrollbar {
+      width: 8px;              
+  }
+  
+  body::-webkit-scrollbar-thumb {
+      background-color: rgb(0, 250, 250); 
+      border-radius: 20px;       
+      border: 3px solid rgb(0, 0, 0);  
+  }
+  #tumSayfa{
+      width: 100%;
+      height: 100%;
+      margin:0 ;
+      padding:0;
+      top:0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      border: none;
+      outline: none;
+      background-color:#161617;
+      }
+      #header{
+          position: relative;
+          display: block;
+          width: 100%;
+          height: 129px;
+          background-color: #000000;
+      }
+      #baslik{
+          position: relative;
+          display: block;
+          background-color: #000000;
+          width: 100%;
+          height: 40px;
+          outline: none;
+          margin: 0;
+          padding: 0;
+      }
+      #menuDivi{
+          display: inline-block;
+          width: auto;
+          height: auto;
+          margin: 0;
+          margin-right: 30px;
+          padding: 0;
+          float: right;
+      }
+      #baslik2{
+         width: 100%;
+         height: 89px;
+         margin: 0;
+         padding: 0;
+         display: flex;
+         flex-direction: row;
+       
+      }
+      #baslik2 div{
+       display: flex;
+       flex-direction: row;
+       gap: 100px;
+      }
+      #logo{
+          display: block;
+          float: left;
+          width: 240px;
+          height: 90px;
+          margin: -10px 80px;
+          outline: none;
+          border: none;
+      }
+      hr{
+          width: 100%;
+          height: 2px;
+          background-color: crimson;
+          border: none;
+          margin: 0;
+          padding: 0;
+      }
+      #Giris{
+          display: block;
+          width: 103px;
+          height: 40px;
+          border:1px solid #49494a;
+          float: left;
+          margin: 0;
+          color: #FFF;
+          padding: 0;
+          gap: 0;
+      }
+      #Giris a{
+          width: 100%;
+          height: 100%;
+          font-size: 14px;
+          font-family: "RegularS",Arial,sans-serif;
+          padding: 0;
+          margin: 8px 0 ;
+          text-align: center;
+          gap: 0;
+          text-decoration: none;
+          color: #FFF;
+          transition: color 0.35s;
+      }
+      #Giris a:hover{
+          color: rgb(0, 250, 250);
+      }
+      #uyeOl{
+          display: block;
+          width: 107px;
+          height: 40px;
+          border:1px solid #49494a;
+          float: right;
+          margin: 0;
+          padding: 0;
+          gap: 0;
+          color: #FFF;
+      }
+      #uyeOl a{
+          width: 100%;
+          height: 100%;
+          font-size: 14px;
+          font-family:"RegularS",Arial,sans-serif;
+          padding: 0;
+          margin: 8px 0 ;
+          text-align: center;
+          gap: 0;
+          text-decoration: none;
+          color: #FFF;
+          transition: color 0.35s;
+      }
+      #uyeOl a:hover{
+          color: rgb(0, 250, 250);
+      }
+      #altAciklamaAlani{
+          width: 100%;
+          height: 450px;
+          background-color:#131314;
+          margin: 0;
+          padding: 0;
+        }
+        #altAciklama{
+          width: 1150;
+          height: 380px;
+          margin: 0 90px 0 80px;
+          padding: 15px;
+          background-color:#161617;
+          color: #FFF;
+          text-align: left;
+        }
+        #enAltAlan{
+          width: 100%;
+          height: 300px;
+          background:#161617;
+          margin: 0;
+          float: left;
+        }
+        #enAlt{
+          width: 1330px;
+          height:200px ;
+          margin: 0 90px 0 80px;
+          padding: 15px;
+          background:#161617;
+          color: #FFF;
+          float: left;
+        }
+        #taksitAciklama{
+         width: 250px;
+         height: 190px;
+         font-size: 34px;
+         float: left;
+         margin: 20px;
+         margin-left:110px ;
+         color: rgb(0, 250, 250);
+        }
+        #taksitAciklama p{
+          font-size:14px;
+          color:#FFF;
+        }
+        #kargoAciklama{
+          width: 255px;
+          height: 190px;
+          font-size: 32px;
+          float: left;
+          margin: 20px;
+          color: rgb(0, 250, 250);
+        }
+        #kargoAciklama p{
+          font-size:14px;
+          margin-top:22px;
+          color:#FFF;
+        }
+        #hizAciklama{
+          width: 255px;
+          height: 190px;
+          font-size: 32px;
+          float: left;
+          margin: 20px;
+          color: rgb(0, 250, 250);
+        }
+        #hizAciklama p{
+          font-size:14px;
+          margin-top:22px;
+          color:#FFF;
+        }
+        #destekAciklama{
+          width: 255px;
+          height: 190px;
+          font-size: 32px;
+          float: left;
+          margin: 20px;
+          color: rgb(0, 250, 250);
+        }
+        #destekAciklama p{
+          font-size:14px;
+          margin-top:22px;
+          color:#FFF;
+        }
+        #telif{
+          width: 100%;
+          height: 50px;
+          color: #FFF;
+          float: left;
+        }
+        #Sepetim{
+            display: block;
+            width: 103px;
+            height: 40px;
+    border:1px solid #49494a;
+    float: right;
+    margin: 0;
+    color: #FFF;
+    padding: 0;
+    gap: 0;
+  }
+  #Sepetim a{
+      width: 100%;
+      height: 100%;
+      font-size: 14px;
+      font-family: "RegularS",Arial,sans-serif;
+      padding-top:8px;
+      text-align: center;
+      gap: 0;
+      text-decoration: none;
+      color: #FFF;
+      transition: color 0.35s;
+    }
+    #Sepetim a:hover{
+        color: rgb(0, 250, 250);
+    }
+    #Hesabim{
+        width: 150px;
+    height: 40px;
+    border:1px solid #49494a;
+    float: right;
+    margin: 0;
+    padding-right: 3px;
+    gap: 0;
+    color: #FFF;
+    line-height: 17px;
+}
+  #Hesabim a{
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    font-family:"RegularS",Arial,sans-serif;
+    padding: 0;
+    margin: 0;
+    gap: 0;
+    text-decoration: none;
+    color: #FFF;
+    transition: color 0.35s;
+}
+#Hesabim a:hover{
+    color: rgb(0, 250,250);
+}
+#hesabimSecenekler{
+    text-align: center;
+    list-style: none;
+    color:#ffffff;
+    align-items: center;
+    gap:10px;
+    font-family: "RegularS",Arial,sans-serif;
+    font-size: 13px;
+    margin:0;
+    height: 40px;
+    font-weight: 100;
+    margin-right: 40px;
+}
+#Hesabim ul{
+    list-style: none;
+    position: absolute;
+    background: #161617;
+    margin: 0;
+    display: none;
+    width: 150px;
+    height: 163px;
+    padding: 0;
+    border-radius: 10px;
+    font-size: 22px;
+    z-index: 5;
+    margin-top: 2px;
+}
+#Hesabim ul li{
+    border-radius: 10px;
+    padding:5px;
+    height: 30px;
+    justify-content: center;
+    opacity: 0.7;
+}
+#Hesabim ul li:hover{
+    background-color: #49494a;
+}
+#Hesabim:hover ul{
+    display: block;
+}
+#hesapresim2{
+    width: 34px;
+    height: 34px;
+    float: left;
+    padding: 0;
+}
+#hesapresim{
+    width: 35px;
+    height: 35px;
+    float: left;
+    margin-left:3px;
+    padding: 0;
+}
+#anaEkran{
+    height: 700px;
+    width: 100%;
+    float: left;
+    background-color: #1B1C1D;
+    display: flex;
+    justify-content: center;
+}
+#islem{
+    width: 500px;
+    height: 500px;
+    float: left;
+}
+#resim5{
+    width: 500px;
+    height: 170px;
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+#resim5 img{
+    width: 170px;
+    height: 170px;
+    float: left;
+}
+#aciklama3{
+    width: 500px;
+    height: 100px;
+    color: white;
+    float: left;
+}
+#aciklama3 h1{
+    font-family: "infinitY";
+}
+#fiyatsonuc{
+    width: 500px;
+    height: 30px;
+    float: left;
+    font-family: "infinitY";
+    color: #a4a4a4;
+    margin-top: 80px;
+}
+#fiyat{
+    width: 250px;
+    height: 30px;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+#sonuc{
+    width: 245px;
+    height: 30px;
+    float: left;
+    text-align: right;
+}
+#siparisler{
+    width: 500px;
+    height: 40px;
+    color: #a4a4a4;
+    margin-top: 50px;
+    font-size: 20px;
+}
+#siparisler a{
+    text-decoration: none;
+    color:rgb(0, 250, 250);
+}

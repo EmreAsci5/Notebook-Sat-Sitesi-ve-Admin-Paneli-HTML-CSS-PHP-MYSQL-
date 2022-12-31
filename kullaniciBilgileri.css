@@ -1,0 +1,611 @@
+@font-face{
+    font-family:"infinitY";
+    src: url(Manrope-VariableFont_wght.ttf);
+  }
+  
+  body{
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height:100%;
+      background-color:#FFF ;
+      line-height: 1.5;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: normal;
+      text-align: center;
+      text-decoration: none;
+      overflow: scroll;
+      overflow-x: hidden;
+      background-color:#1B1C1D;
+  }
+  body::-webkit-scrollbar {
+      width: 8px;              
+  }
+  
+  body::-webkit-scrollbar-thumb {
+      background-color: rgb(0, 250, 250); 
+      border-radius: 20px;       
+      border: 3px solid rgb(0, 0, 0);  
+  }
+  #tumSayfa{
+      width: 100%;
+      height: 100%;
+      margin:0 ;
+      padding:0;
+      top:0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      border: none;
+      outline: none;
+      background-color:#161617;
+      }
+      #header{
+          position: relative;
+          display: block;
+          width: 100%;
+          height: 129px;
+          background-color: #000000;
+      }
+      #baslik{
+          position: relative;
+          display: block;
+          background-color: #000000;
+          width: 100%;
+          height: 40px;
+          outline: none;
+          margin: 0;
+          padding: 0;
+      }
+      #menuDivi{
+          display: inline-block;
+          width: auto;
+          height: auto;
+          margin: 0;
+          margin-right: 30px;
+          padding: 0;
+          float: right;
+      }
+      #baslik2{
+         width: 100%;
+         height: 89px;
+         margin: 0;
+         padding: 0;
+         display: flex;
+         flex-direction: row;
+       
+      }
+      #baslik2 div{
+       display: flex;
+       flex-direction: row;
+       gap: 100px;
+      }
+      #logo{
+          display: block;
+          float: left;
+          width: 240px;
+          height: 90px;
+          margin: -10px 80px;
+          outline: none;
+          border: none;
+      }
+      hr{
+          width: 100%;
+          height: 2px;
+          background-color: crimson;
+          border: none;
+          margin: 0;
+          padding: 0;
+      }
+      #Giris{
+          display: block;
+          width: 103px;
+          height: 40px;
+          border:1px solid #49494a;
+          float: left;
+          margin: 0;
+          color: #FFF;
+          padding: 0;
+          gap: 0;
+      }
+      #Giris a{
+          width: 100%;
+          height: 100%;
+          font-size: 14px;
+          font-family: "RegularS",Arial,sans-serif;
+          padding: 0;
+          margin: 8px 0 ;
+          text-align: center;
+          gap: 0;
+          text-decoration: none;
+          color: #FFF;
+          transition: color 0.35s;
+      }
+      #Giris a:hover{
+          color: rgb(0, 250, 250);
+      }
+      #uyeOl{
+          display: block;
+          width: 107px;
+          height: 40px;
+          border:1px solid #49494a;
+          float: right;
+          margin: 0;
+          padding: 0;
+          gap: 0;
+          color: #FFF;
+      }
+      #uyeOl a{
+          width: 100%;
+          height: 100%;
+          font-size: 14px;
+          font-family:"RegularS",Arial,sans-serif;
+          padding: 0;
+          margin: 8px 0 ;
+          text-align: center;
+          gap: 0;
+          text-decoration: none;
+          color: #FFF;
+          transition: color 0.35s;
+      }
+      #uyeOl a:hover{
+          color: rgb(0, 250, 250);
+      }
+      #altAciklamaAlani{
+          width: 100%;
+          height: 450px;
+          background-color:#131314;
+          margin: 0;
+          padding: 0;
+        }
+        #altAciklama{
+          width: 1150;
+          height: 380px;
+          margin: 0 90px 0 80px;
+          padding: 15px;
+          background-color:#161617;
+          color: #FFF;
+          text-align: left;
+        }
+        #enAltAlan{
+          width: 100%;
+          height: 300px;
+          background:#161617;
+          margin: 0;
+          float: left;
+        }
+        #enAlt{
+          width: 1330px;
+          height:200px ;
+          margin: 0 90px 0 80px;
+          padding: 15px;
+          background:#161617;
+          color: #FFF;
+          float: left;
+        }
+        #taksitAciklama{
+         width: 250px;
+         height: 190px;
+         font-size: 34px;
+         float: left;
+         margin: 20px;
+         margin-left:110px ;
+         color: rgb(0, 250, 250);
+        }
+        #taksitAciklama p{
+          font-size:14px;
+          color:#FFF;
+        }
+        #kargoAciklama{
+          width: 255px;
+          height: 190px;
+          font-size: 32px;
+          float: left;
+          margin: 20px;
+          color: rgb(0, 250, 250);
+        }
+        #kargoAciklama p{
+          font-size:14px;
+          margin-top:22px;
+          color:#FFF;
+        }
+        #hizAciklama{
+          width: 255px;
+          height: 190px;
+          font-size: 32px;
+          float: left;
+          margin: 20px;
+          color: rgb(0, 250, 250);
+        }
+        #hizAciklama p{
+          font-size:14px;
+          margin-top:22px;
+          color:#FFF;
+        }
+        #destekAciklama{
+          width: 255px;
+          height: 190px;
+          font-size: 32px;
+          float: left;
+          margin: 20px;
+          color: rgb(0, 250, 250);
+        }
+        #destekAciklama p{
+          font-size:14px;
+          margin-top:22px;
+          color:#FFF;
+        }
+        #telif{
+          width: 100%;
+          height: 50px;
+          color: #FFF;
+          float: left;
+        }
+        #Sepetim{
+            display: block;
+            width: 103px;
+            height: 40px;
+    border:1px solid #49494a;
+    float: right;
+    margin: 0;
+    color: #FFF;
+    padding: 0;
+    gap: 0;
+  }
+  #Sepetim a{
+      width: 100%;
+      height: 100%;
+      font-size: 14px;
+      font-family: "RegularS",Arial,sans-serif;
+      padding-top:8px;
+      text-align: center;
+      gap: 0;
+      text-decoration: none;
+      color: #FFF;
+      transition: color 0.35s;
+    }
+    #Sepetim a:hover{
+        color: rgb(0, 250, 250);
+    }
+    #Hesabim{
+        width: 150px;
+    height: 40px;
+    border:1px solid #49494a;
+    float: right;
+    margin: 0;
+    padding-right: 3px;
+    gap: 0;
+    color: #FFF;
+    line-height: 17px;
+}
+  #Hesabim a{
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    font-family:"RegularS",Arial,sans-serif;
+    padding: 0;
+    margin: 0;
+    gap: 0;
+    text-decoration: none;
+    color: #FFF;
+    transition: color 0.35s;
+}
+#Hesabim a:hover{
+    color: rgb(0, 250,250);
+}
+#hesabimSecenekler{
+    text-align: center;
+    list-style: none;
+    color:#ffffff;
+    align-items: center;
+    gap:10px;
+    font-family: "RegularS",Arial,sans-serif;
+    font-size: 13px;
+    margin:0;
+    height: 40px;
+    font-weight: 100;
+    margin-right: 40px;
+}
+#Hesabim ul{
+    list-style: none;
+    position: absolute;
+    background: #161617;
+    margin: 0;
+    display: none;
+    width: 150px;
+    height: 163px;
+    padding: 0;
+    border-radius: 10px;
+    font-size: 22px;
+    z-index: 5;
+    margin-top: 2px;
+}
+#Hesabim ul li{
+    border-radius: 10px;
+    padding:5px;
+    height: 30px;
+    justify-content: center;
+    opacity: 0.7;
+}
+#Hesabim ul li:hover{
+    background-color: #49494a;
+}
+#Hesabim:hover ul{
+    display: block;
+}
+#hesapresim2{
+    width: 34px;
+    height: 34px;
+    float: left;
+    padding: 0;
+}
+#hesapresim{
+    width: 35px;
+    height: 35px;
+    float: left;
+    margin-left:3px;
+    padding: 0;
+}
+#anaEkran{
+    height: 700px;
+    width: 100%;
+    float: left;
+    background-color: #1B1C1D;
+    display: flex;
+    justify-content: center;
+}
+#hesabimAlani{
+    width: 1100px;
+    height: 650px;
+    float: left;
+    margin-top: 10px;
+}
+#solSekme{
+    width: 200px;
+    height: 645px;
+    float: left;
+}
+.kategori{
+    width: 200px;
+    height: 40px;
+    border: 1px solid #49494a;
+    float: left;
+    margin-top: 5px;
+}
+.kategori a{
+    text-decoration: none;
+    color:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s;
+}
+.kategori a:hover{
+    color: #000000;
+    background-color: rgb(0, 250, 250);
+}
+.kategori img{
+    width: 20px;
+    height: 20px;
+}
+#uyeBilgileri{
+    width: 480px;
+    height: 645px;
+    float: left;
+    border-style:solid;
+    border-width: 1px 0 1px 1px;
+    border-color: #49494a;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 8px 0 0 8px;
+    font-family: "infinitY";
+}
+#adSoyad{
+    width: 475px;
+    height: 100px;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#ad{
+    width: 200px;
+    height: 80px;
+    float: left;
+    display: flex;
+    flex-direction:column;
+    color: #989898;
+}
+#ad input,#soyad input{
+    width: 190px;
+    height: 35px;
+    background-color: #49494a;
+    outline: none;
+    border: 1px solid black;
+    transition: all 0.3s;
+    color: #FFF;
+}
+#ad input:focus,#soyad input:focus{
+    border-color: rgb(0, 250, 250);
+}
+#soyad{
+    width: 200px;
+    height: 80px;
+    float: left;
+    display: flex;
+    flex-direction:column;
+    color: #989898;
+    margin-left: 44px;
+}
+#email{
+    width: 475px;
+    height: 80px;
+    float: left;
+    display: flex;
+    flex-direction:column;
+    color:#989898 ;
+    align-items: center;
+    justify-content: center;
+}
+#email input{
+    width: 250px;
+    height: 35px;
+    float: left;
+    border: 1px solid black;
+    background-color: #49494a;
+    outline: none;
+    transition: all 0.3s;
+    color: #FFF;
+}
+#email input:focus{
+    border-color: rgb(0, 250, 250);
+}
+#tel{
+    width: 475px;
+    height: 80px;
+    float: left;
+    display: flex;
+    flex-direction:column;
+    color:#989898 ;
+    align-items: center;
+    justify-content: center;
+}
+#tel input{
+    width: 250px;
+    height: 35px;
+    float: left;
+    border: 1px solid black;
+    background-color: #49494a;
+    outline: none;
+    transition: all 0.3s;
+    color: #FFF;
+}
+#tel input:focus{
+    border-color: rgb(0, 250, 250);
+}
+#guncelle{
+    width: 475px;
+    height: 80px;
+    float: left;
+    display: flex;
+    flex-direction:column;
+    color:#989898 ;
+    align-items: center;
+    justify-content: center;
+}
+#guncelle input{
+    width: 250px;
+    height: 35px;
+    float: left;
+    border: 1px solid black;
+    background-color: #49494a;
+    outline: none;
+    transition: all 0.3s;
+    color: #FFF;
+    cursor: pointer;
+}
+#guncelle input:hover{
+    background-color: rgb(0, 250, 250);
+    color: black;
+}
+#sifreYenileme{
+    width: 400px;
+    height: 645px;
+    float: left;
+    border-style:solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #49494a;
+    margin-top: 5px;
+    border-radius: 0 8px 8px 0;
+    font-family: "infinitY";
+}
+#mevcut{
+    width: 400px;
+    height: 80px;
+    float: left;
+    display: flex;
+    flex-direction:column;
+    color:#989898 ;
+    align-items: center;
+    justify-content: center;
+}
+#mevcut input{
+    width: 250px;
+    height: 25px;
+    float: left;
+    border: 1px solid black;
+    background-color: #49494a;
+    outline: none;
+    transition: all 0.3s;
+    color: #FFF;
+}
+#mevcut input:focus{
+    border-color: rgb(0, 250, 250);
+}
+#yeni{
+    width: 400px;
+    height: 80px;
+    float: left;
+    display: flex;
+    flex-direction:column;
+    color:#989898 ;
+    align-items: center;
+    justify-content: center;
+}
+#yeni input{
+    width: 250px;
+    height: 25px;
+    float: left;
+    border: 1px solid black;
+    background-color: #49494a;
+    outline: none;
+    transition: all 0.3s;
+    color: #FFF;
+}
+#yeni input:focus{
+    border-color: rgb(0, 250, 250);
+}
+#degistir{
+    width: 400px;
+    height: 80px;
+    float: left;
+    display: flex;
+    flex-direction:column;
+    color:#989898 ;
+    align-items: center;
+    justify-content: center;
+}
+#degistir input{
+    width: 250px;
+    height: 35px;
+    float: left;
+    border: 1px solid black;
+    background-color: #49494a;
+    outline: none;
+    transition: all 0.3s;
+    color: #FFF;
+    cursor: pointer;
+}
+#degistir input:hover{
+    background-color:rgb(0, 250, 250) ;
+    color:#000000;
+}
+#uyari{
+    width: 475px;
+    height: 30px;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#uyari2{
+    width: 400px;
+    height: 30px;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

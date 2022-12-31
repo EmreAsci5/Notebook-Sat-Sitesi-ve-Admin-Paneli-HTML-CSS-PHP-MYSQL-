@@ -1,0 +1,663 @@
+@font-face{
+    font-family:"infinitY";
+    src: url(Manrope-VariableFont_wght.ttf);
+  }
+  
+  body{
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height:100%;
+      background-color:#FFF ;
+      line-height: 1.5;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: normal;
+      text-align: center;
+      text-decoration: none;
+      overflow: scroll;
+      overflow-x: hidden;
+      background-color:#1B1C1D;
+  }
+  body::-webkit-scrollbar {
+      width: 8px;              
+  }
+  
+  body::-webkit-scrollbar-thumb {
+      background-color: rgb(0, 250, 250); 
+      border-radius: 20px;       
+      border: 3px solid rgb(0, 0, 0);  
+  }
+  #tumSayfa{
+      width: 100%;
+      height: 100%;
+      margin:0 ;
+      padding:0;
+      top:0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      border: none;
+      outline: none;
+      background-color:#161617;
+      }
+      #header{
+          position: relative;
+          display: block;
+          width: 100%;
+          height: 129px;
+          background-color: #000000;
+      }
+      #baslik{
+          position: relative;
+          display: block;
+          background-color: #000000;
+          width: 100%;
+          height: 40px;
+          outline: none;
+          margin: 0;
+          padding: 0;
+      }
+      #menuDivi{
+          display: inline-block;
+          width: auto;
+          height: auto;
+          margin: 0;
+          margin-right: 30px;
+          padding: 0;
+          float: right;
+      }
+      #baslik2{
+         width: 100%;
+         height: 89px;
+         margin: 0;
+         padding: 0;
+         display: flex;
+         flex-direction: row;
+       
+      }
+      #baslik2 div{
+       display: flex;
+       flex-direction: row;
+       gap: 100px;
+      }
+      #logo{
+          display: block;
+          float: left;
+          width: 240px;
+          height: 90px;
+          margin: -10px 80px;
+          outline: none;
+          border: none;
+      }
+      hr{
+          width: 100%;
+          height: 2px;
+          background-color: crimson;
+          border: none;
+          margin: 0;
+          padding: 0;
+      }
+      #Giris{
+          display: block;
+          width: 103px;
+          height: 40px;
+          border:1px solid #49494a;
+          float: left;
+          margin: 0;
+          color: #FFF;
+          padding: 0;
+          gap: 0;
+      }
+      #Giris a{
+          width: 100%;
+          height: 100%;
+          font-size: 14px;
+          font-family: "RegularS",Arial,sans-serif;
+          padding: 0;
+          margin: 8px 0 ;
+          text-align: center;
+          gap: 0;
+          text-decoration: none;
+          color: #FFF;
+          transition: color 0.35s;
+      }
+      #Giris a:hover{
+          color: rgb(0, 250, 250);
+      }
+      #uyeOl{
+          display: block;
+          width: 107px;
+          height: 40px;
+          border:1px solid #49494a;
+          float: right;
+          margin: 0;
+          padding: 0;
+          gap: 0;
+          color: #FFF;
+      }
+      #uyeOl a{
+          width: 100%;
+          height: 100%;
+          font-size: 14px;
+          font-family:"RegularS",Arial,sans-serif;
+          padding: 0;
+          margin: 8px 0 ;
+          text-align: center;
+          gap: 0;
+          text-decoration: none;
+          color: #FFF;
+          transition: color 0.35s;
+      }
+      #uyeOl a:hover{
+          color: rgb(0, 250, 250);
+      }
+      #altAciklamaAlani{
+          width: 100%;
+          height: 450px;
+          background-color:#131314;
+          margin: 0;
+          padding: 0;
+        }
+        #altAciklama{
+          width: 1150;
+          height: 380px;
+          margin: 0 90px 0 80px;
+          padding: 15px;
+          background-color:#161617;
+          color: #FFF;
+          text-align: left;
+        }
+        #enAltAlan{
+          width: 100%;
+          height: 300px;
+          background:#161617;
+          margin: 0;
+          float: left;
+        }
+        #enAlt{
+          width: 1330px;
+          height:200px ;
+          margin: 0 90px 0 80px;
+          padding: 15px;
+          background:#161617;
+          color: #FFF;
+          float: left;
+        }
+        #taksitAciklama{
+         width: 250px;
+         height: 190px;
+         font-size: 34px;
+         float: left;
+         margin: 20px;
+         margin-left:110px ;
+         color: rgb(0, 250, 250);
+        }
+        #taksitAciklama p{
+          font-size:14px;
+          color:#FFF;
+        }
+        #kargoAciklama{
+          width: 255px;
+          height: 190px;
+          font-size: 32px;
+          float: left;
+          margin: 20px;
+          color: rgb(0, 250, 250);
+        }
+        #kargoAciklama p{
+          font-size:14px;
+          margin-top:22px;
+          color:#FFF;
+        }
+        #hizAciklama{
+          width: 255px;
+          height: 190px;
+          font-size: 32px;
+          float: left;
+          margin: 20px;
+          color: rgb(0, 250, 250);
+        }
+        #hizAciklama p{
+          font-size:14px;
+          margin-top:22px;
+          color:#FFF;
+        }
+        #destekAciklama{
+          width: 255px;
+          height: 190px;
+          font-size: 32px;
+          float: left;
+          margin: 20px;
+          color: rgb(0, 250, 250);
+        }
+        #destekAciklama p{
+          font-size:14px;
+          margin-top:22px;
+          color:#FFF;
+        }
+        #telif{
+          width: 100%;
+          height: 50px;
+          color: #FFF;
+          float: left;
+        }
+  #anaEkran{
+      height: 800px;
+      width: 100%;
+      float: left;
+      background-color: #1B1C1D;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  #Sepetim{
+    display: block;
+    width: 103px;
+    height: 40px;
+    border:1px solid #49494a;
+    float: right;
+    margin: 0;
+    color: #FFF;
+    padding: 0;
+    gap: 0;
+  }
+  #Sepetim a{
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    font-family: "RegularS",Arial,sans-serif;
+    padding-top:8px;
+    text-align: center;
+    gap: 0;
+    text-decoration: none;
+    color: #FFF;
+    transition: color 0.35s;
+  }
+  #Sepetim a:hover{
+    color: rgb(0, 250, 250);
+  }
+  #Hesabim{
+    width: 150px;
+    height: 40px;
+    border:1px solid #49494a;
+    float: right;
+    margin: 0;
+    padding-right: 3px;
+    gap: 0;
+    color: #FFF;
+    line-height: 17px;
+  }
+  #Hesabim a{
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    font-family:"RegularS",Arial,sans-serif;
+    padding: 0;
+    margin: 0;
+    gap: 0;
+    text-decoration: none;
+    color: #FFF;
+    transition: color 0.35s;
+  }
+  #Hesabim a:hover{
+    color: rgb(0, 250,250);
+  }
+  #hesabimSecenekler{
+    text-align: center;
+    list-style: none;
+    color:#ffffff;
+    align-items: center;
+    gap:10px;
+    font-family: "RegularS",Arial,sans-serif;
+    font-size: 13px;
+    margin:0;
+    height: 40px;
+    font-weight: 100;
+    margin-right: 40px;
+  }
+  #Hesabim ul{
+    list-style: none;
+    position: absolute;
+    background: #161617;
+    margin: 0;
+    display: none;
+    width: 150px;
+    height: 163px;
+    padding: 0;
+    border-radius: 10px;
+    font-size: 22px;
+    z-index: 5;
+    margin-top: 2px;
+  }
+  #Hesabim ul li{
+    border-radius: 10px;
+    padding:5px;
+    height: 30px;
+    justify-content: center;
+    opacity: 0.7;
+  }
+  #Hesabim ul li:hover{
+    background-color: #49494a;
+  }
+  #Hesabim:hover ul{
+    display: block;
+  }
+  #hesapresim2{
+    width: 34px;
+    height: 34px;
+    float: left;
+    padding: 0;
+  }
+  #hesapresim{
+    width: 35px;
+    height: 35px;
+    float: left;
+    margin-left:3px;
+    padding: 0;
+  }
+  #adreslerAlani{
+    width: 1250px;
+    height: 700px;
+    float: left;
+  }
+  #kademeler{
+    width: 100%;
+    height: 73px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "infinitY";
+}
+#kademeler img{
+   width: 30px;
+   height: 30px;
+   margin-bottom: 5px;
+}
+#teslimatYazisi{
+    width: 800px;
+    height: 40px;
+    float: left;
+    text-align: left;
+    color:rgb(0, 250, 250);
+    letter-spacing: 0.3px;
+  }
+  #teslimatYazisi h1{
+  margin: 0;
+  font-size: 24px;
+  display: block;
+  font-family: "infinitY";
+  font-weight: normal;
+  }
+  #odemeler{
+    margin-top: 20px;
+    width: 802px;
+    height: 400px;
+    float: left;
+    font-size: 12px;
+  }
+  #secenekler{
+    width: 800px;
+    height: 60px;
+    float: left;
+    
+  }
+  #cvcbilgi{
+    width: 800px;
+    height: 60px;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  #cvc{
+    width: 300px;
+    height: 30px;
+    border: 1px solid #49494A;
+    float: left;
+    background-color: #131314;
+    outline: none;
+    transition: all 0.5s;
+  }
+  #cvc:focus{
+    border-color:rgb(0, 250, 250);
+  }
+  #isim{
+    width: 300px;
+    height: 30px;
+    border: 1px solid #49494A;
+    float: left;
+    background-color: #131314;
+    outline: none;
+    transition: all 0.5s;
+  }
+  #isim:focus{
+    border-color:rgb(0, 250, 250);
+  }
+  #taksit{
+    max-width: 600px;
+    height: 40px;
+    float: right;
+    font-size: 20px;
+    color:rgb(0, 250, 250) ;
+    margin-right: 100px;
+
+  }
+  input[type=button]{
+    cursor: pointer;
+    height: 45px;
+    width: 240px;
+    background-color:#000000 ;
+    border: 1px solid #49494A;
+    color: #fff;
+    font-size: 20px;
+    margin: 20px;
+    
+  }
+  input[type=submit]{
+    width: 240px;
+    height: 45px;
+    cursor: pointer;
+    background-color:rgb(0, 250, 250) ;
+    border: 1px solid #49494A;
+    color: #131314;
+    font-size: 20px;
+  }
+  #kart{
+    width: 200px;
+    height: 60px;
+    color: #fff;
+    float: left;
+    font-size: 17px;
+    font-family: "infinitY";
+    border: 1px solid rgb(0, 250, 250);
+  }
+  #kartno1{
+    width: 800px;
+    height: 70px;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  #kartno{
+    width: 300px;
+    height: 30px;
+    border: 1px solid #49494A;
+    float: left;
+    background-color: #131314;
+    outline: none;
+    transition: all 0.5s;
+  }
+  #kartno:focus{
+    border-color:rgb(0, 250, 250) ;
+  }
+  input{
+    outline: none;
+    color:white;
+    background-color: #131314;
+    border: 1px solid #49494A;
+  }
+  select{
+    width: 200px;
+    height: 30px;
+    border: 1px solid #49494A;
+    float: left;
+    background-color: #131314;
+    outline: none;
+    transition: all 0.5s;
+    color: white;
+    margin-left: 5px;
+  }
+  select:focus{
+    border-color:rgb(0, 250, 250) ;
+  }
+  #odeme{
+    width: 800px;
+    height: 500px;
+    float: left;
+    margin-top: 10px;
+    color: #a4a4a5;
+    font-family: "infinitY";
+  }
+  #solAlan{
+    width: 804px;
+    max-height: 400px;
+    float: left;
+  }
+  #urunOzeti{
+    width: 300px;
+    height: 420px;
+    border: 1px solid #49494A;
+    float: left;
+    margin-left: 80px;
+  }
+  #ozetBaslik{
+    width: 300px;
+    height: 70px;
+    border:0 solid #49494A;
+    float: left;
+    background-color: #000000;
+    color: #FFF;
+    font-size: 23px;
+    font-family: "infinitY";
+    text-align: left;
+  }
+  #ozetBaslik p{
+    margin-top:15px;
+    margin-left: 13px;
+    float: left;
+  }
+  #ozetFiyat{
+    width: 300px;
+    height: 150px;
+    border-style: solid;
+    border-width:1px 0;
+    float: left;
+    border-color: #49494A;
+    background-color: #000000;
+  }
+  #tFiyat{
+    width: 300px;
+    height: 46px;
+    color: #FFF;
+    font-family: "infinitY";
+    font-size: 13px;
+    float: left;
+  }
+  #toFiyat{
+    margin-top: 20px;
+    float: left;
+    margin-left: 5px;
+    font-size: 13px;
+    color: #a4a4a5;
+  }
+  #topFiyat{
+    width: 100px;
+    height: 15px;
+    margin-top: 20px;
+    float: left;
+    margin-left: 110px;
+    font-size: 13px;
+  }
+  #kdv{
+    width: 300px;
+    height: 46px;
+    color: #FFF;
+    font-family: "infinitY";
+    float: left;
+  }
+  #kdvY{
+    margin-top: 20px;
+    float: left;
+    margin-left: 5px;
+    font-size: 13px;
+    color: #a4a4a5;
+    float: left;
+  }
+  #kdvYa{
+    width: 100px;
+    height: 15px;
+    margin-top: 20px;
+    float: left;
+    margin-left: 165px;
+    font-size: 13px;
+  }
+  #kdvAlani{
+    width: 300px;
+    height: 70px;
+    background-color: #000000;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    border-color:#49494A ;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "infinitY";
+  }
+  #kdvYazisi{
+    color: #a4a4a5;
+  }
+  #toplamFiyat{
+    color: #FFF;
+    margin-left: 10px;
+    font-size: 25px;
+    width:140px;
+    height: 40px;
+  }
+  #devamet{
+    width: 300px;
+    height: 126px;
+    background-color: #000000;
+    float: left;
+  }
+  #devamButon{
+    width: 240px;
+    height: 45px;
+    border: none;
+    background-color:rgb(0, 250, 250);
+    margin:50px 10px 0 30px;
+    font-family: "infinitY";
+    float: left;
+  }
+  #devamButon a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #000000;
+    text-decoration: none;
+    font-size: 19px;
+  }
+  #devamEt{
+    margin: 10px 20px 0;
+    float: left;
+  }
+  #devamButon img{
+    width: 40px;
+    height: 20px;
+    margin-left: 50px;
+    margin-top: 15px;
+    float: left;
+  }
