@@ -1,0 +1,622 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+#baslik{
+    width:100%;
+    height: 45px;
+    background-color: rgb(66, 64, 64);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+#baslikYazisi{
+    color: aliceblue;
+    font-size: 40px;
+    user-select: none;
+    margin: 0;
+    padding: 0;
+}
+#solSekme{
+    height: 800px;
+    border: none;
+    width:250px;
+    float: left;
+    background-color: rgba(0, 0, 0,0.6);
+}
+#logoDiv{
+    width: 195px;
+    margin: auto;
+    height: 170px;
+    text-align: center;
+    font-size: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    margin-top:25px;
+    user-select: none;
+}
+#logoDiv img{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    opacity: 1;
+    float: left;
+    margin: 20px 10px 0 15px;
+}
+#yesil{
+    width:10px;
+    height: 10px;
+    background-color: rgb(6, 131, 6);
+    border-radius: 50%;
+    float: left;
+    margin: 3px 0 0 18px;
+}
+#cevrimici{
+float: right;
+margin: 0 0 20px;
+font-size: 15px;
+color: aliceblue;
+float: left;
+margin: 0 0 15px 10px;
+user-select: none;
+}
+#logoDiv p{
+  font-size: 15px;
+  color: white;
+}
+#anaSayfa{
+    width: 249px;
+    height: 45px;
+    text-align: center;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    text-decoration: none;
+    transition: width 1s,height 1s,background-color 1s;
+}
+#anaSayfa:hover{
+    width: 240px;
+    height: 44px;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+#anaSayfa a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+#anaSayfaYazisi{
+    width: 100px;
+    height: auto;
+    margin: auto;
+    margin: 10px 5px;
+    float:left;
+}
+#anaSayfa img{
+    margin: auto;
+    margin:0 0 0 45px;
+    float: left;
+    width: 40px;
+    height: 40px;
+}
+#anaSayfa a:hover{
+    opacity: 0.6;
+}
+#istatistikler{
+    width: 249px;
+    height: 45px;
+    text-align: center;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: width 1s,height 1s,background-color 1s;
+}
+#istatistikler:hover{
+    width: 240px;
+    height: 44px;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+#istatistikler img{
+    margin: auto;
+    margin:0 0 0 48px;
+    float: left;
+}
+#istatistiklerSayfaYazisi{
+    width: 100px;
+    height: auto;
+    margin: 10px 20px;
+    float:left;
+}
+#istatistikler a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+#istatistikler a:hover{
+    opacity: 0.6;
+}
+#kullanicilar{
+    width: 249px;
+    height: 44px;
+    text-align: center;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    text-decoration: none;
+    transition: width 1s,height 1s,background-color 1s;
+}
+#kullanicilar img{
+    margin: auto;
+    margin:0 0 0 48px;
+    float: left;
+    width: 32px;
+    height: 32px;
+}
+#Ürükullanicilarnler:hover{
+    width: 240px;
+    height: 45px;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+#kullanicilarYazisi{
+    width: 100px;
+    height: auto;
+    margin: 10px 0 0 17px;
+    float:left;
+}
+#kullanicilar a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+#kullanicilar a:hover{
+    opacity: 0.6;
+}
+#Ürünler{
+    width: 249px;
+    height: 44px;
+    text-align: center;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    text-decoration: none;
+    transition: width 1s,height 1s,background-color 1s;
+}
+#Ürünler img{
+    margin: auto;
+    margin:0 0 0 48px;
+    float: left;
+    width: 32px;
+    height: 32px;
+}
+#Ürünler:hover{
+    width: 240px;
+    height: 45px;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+#ürünlerYazisi{
+    width: 100px;
+    height: auto;
+    margin: 10px 2px;
+    float:left;
+}
+#Ürünler a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+#Ürünler a:hover{
+    opacity: 0.6;
+}
+#anaEkran{
+    width:1267px;
+    height: 713px;
+    float: left;
+    overflow-y: scroll;
+}
+#anaEkran::-webkit-scrollbar{
+    width: 0;
+}
+#cikis{
+    width: 249px;
+    height: 45px;
+    text-align: center;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: width 1s,height 1s,background-color 1s;
+}
+#cikis:hover{
+    width: 240px;
+    height: 44px;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+#cikis img{
+    margin: auto;
+    margin:0 0 0 48px;
+    float: left;
+}
+#cikisYazisi{
+    width: 100px;
+    height: auto;
+    margin: 10px 7px;
+    float:left;
+}
+#cikis a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+#cikis a:hover{
+    opacity: 0.6;
+}
+#siparisler{
+    width: 249px;
+    height: 45px;
+    text-align: center;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: width 1s,height 1s,background-color 1s;
+}
+#siparisler:hover{
+    width: 240px;
+    height: 44px;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+#siparisler img{
+    width: 33px;
+    height: 33px;
+    margin: auto;
+    margin:0 0 0 48px;
+    float: left;
+}
+#siparislerYazisi{
+    width: 100px;
+    height: auto;
+    margin: 10px 7px;
+    float:left;
+}
+#siparisler a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+#siparisler a:hover{
+    opacity: 0.6;
+}
+#siparisAlani{
+    width: 1250px;
+    height: 500px;
+    float: left;
+    margin-left: 10px;
+    background-color:#DDDDDD;
+}
+#onayYazi{
+   width: 1250px;
+   height: 65px;
+   float: left;
+}
+#onayYazi h1{
+    margin-left: 400px;
+    color: rgb(17, 17, 17);
+}
+#siparis{
+    width: 100%;
+    height: 80px;
+    border: 1px solid;
+    float: left;
+    margin-top: 7px;
+    background-color: rgba(0,0,0,0.8);
+}
+#resim{
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+#resim img{
+    width: 65px;
+    height: 45px;
+    margin-top: 15px;
+}
+#modelAd{
+    width: 65px;
+    height: 70px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+#modelSeri{
+    width: 65px;
+    height: 70px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+#fiyat{
+    width: 80px;
+    height: 70px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+#siparisTarihi{
+    width:130px;
+    height: 70px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+#kargo{
+    width:120px;
+    height: 70px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+#bilgiler{
+    width:140px;
+    height: 70px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size:13px
+}
+#adet{
+    width: 40px;
+    height: 70px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+#durum{
+    width:170px;
+    height: 70px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(99, 255, 117);
+    padding-left: 10px;
+}
+#blok{
+    width:130px;
+    height: 60px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 5px;
+    color: white;
+}
+#onay{
+    width: 100%;
+    height: 20px;
+    border: 1px solid;
+    float: left;
+    background-color: greenyellow;
+}
+#onay a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+#guncelle{
+    width: 100%;
+    height: 20px;
+    border: 1px solid;
+    float: left;
+    background-color: rgb(84, 84, 255);
+}
+#guncelle a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+#sil{
+    width: 100%;
+    height: 20px;
+    border: 1px solid;
+    float: left;
+    background-color: red;
+}
+#sil a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+#formSayfasi{
+    background-color: rgba(66, 64, 64,0.5);
+    color: white;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s;
+}
+#duzenleForm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:rgb(22, 22, 22);
+    border-radius: 20px;
+    padding: 10px;
+    width: 20%;
+    height: 400px;
+}
+#duzenleForm input{
+    width: 200px;
+    height: 20px;
+    outline: none;
+    transition: all 0.3s;
+    margin-top: 5px;
+}
+#duzenleForm input:focus{
+    border-color: aqua;
+}
+#duzenleForm select{
+    width: 200px;
+    height: 20px;
+}
+#onaylananSiparisler{
+    width: 1240px;
+    height: 500px;
+    float: left;
+    margin-left: 10px;
+    border: 1px solid;
+}
+#onaylananYazi{
+    width: 1250px;
+   height: 65px;
+   float: left;
+}
+#onaylananYazi h1{
+    margin-left: 400px;
+    color: rgb(17, 17, 17);
+}
+#tanim{
+    width: 1250px;
+    height: 30px;
+    border: 1px solid;
+    float: left;
+    background-color: darkseagreen;
+}
+#ad{
+    width: 90px;
+    height: 30px;
+    border-style: solid;
+    border-width:0 0 0 1px;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 95px;
+}
+#seri{
+    width: 75px;
+    height: 30px;
+    border-style: solid;
+    border-width:0 0 0 1px;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#fiyat2{
+    width: 95px;
+    height: 30px;
+    border-style: solid;
+    border-width:0 0 0 1px;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#sTarihi{
+    width: 150px;
+    height: 30px;
+    border-style: solid;
+    border-width:0 0 0 1px;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#kargo2{
+    width: 138px;
+    height: 30px;
+    border-style: solid;
+    border-width:0 0 0 1px;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#bilgiler2{
+    width: 165px;
+    height: 30px;
+    border-style: solid;
+    border-width:0 0 0 1px;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#durum2{
+    width: 185px;
+    height: 30px;
+    border-style: solid;
+    border-width:0 0 0 1px;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#adet2{
+    width: 60px;
+    height: 30px;
+    border-style: solid;
+    border-width:0 1px 0 1px;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

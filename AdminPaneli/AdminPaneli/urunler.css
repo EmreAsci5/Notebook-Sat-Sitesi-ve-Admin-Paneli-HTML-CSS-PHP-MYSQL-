@@ -1,0 +1,524 @@
+body{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+#baslik{
+    width:100%;
+    height: 45px;
+    background-color: rgb(66, 64, 64);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+#baslikYazisi{
+    color: aliceblue;
+    font-size: 40px;
+    user-select: none;
+    margin: 0;
+    padding: 0;
+}
+#solSekme{
+    height: 712px;
+    border: none;
+    width:250px;
+    float: left;
+    background-color: rgba(0, 0, 0,0.6);
+}
+#logoDiv{
+    width: 195px;
+    margin: auto;
+    height: 170px;
+    text-align: center;
+    font-size: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    margin-top:25px;
+    user-select: none;
+}
+#logoDiv img{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    opacity: 1;
+    float: left;
+    margin: 20px 10px 0 15px;
+}
+#yesil{
+    width:10px;
+    height: 10px;
+    background-color: rgb(6, 131, 6);
+    border-radius: 50%;
+    float: left;
+    margin: 3px 0 0 18px;
+}
+#cevrimici{
+float: right;
+margin: 0 0 20px;
+font-size: 15px;
+color: aliceblue;
+float: left;
+margin: 0 0 15px 10px;
+user-select: none;
+}
+#logoDiv p{
+  font-size: 15px;
+  color: white;
+}
+#anaSayfa{
+    width: 249px;
+    height: 45px;
+    text-align: center;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    text-decoration: none;
+    transition: width 1s,height 1s,background-color 1s;
+}
+#anaSayfa:hover{
+    width: 240px;
+    height: 44px;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+#anaSayfa a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+#anaSayfaYazisi{
+    width: 100px;
+    height: auto;
+    margin: auto;
+    margin: 10px 5px;
+    float:left;
+}
+#anaSayfa img{
+    margin: auto;
+    margin:0 0 0 45px;
+    float: left;
+    width: 40px;
+    height: 40px;
+}
+#anaSayfa a:hover{
+    opacity: 0.6;
+}
+#istatistikler{
+    width: 249px;
+    height: 45px;
+    text-align: center;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: width 1s,height 1s,background-color 1s;
+}
+#istatistikler:hover{
+    width: 240px;
+    height: 44px;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+#istatistikler img{
+    margin: auto;
+    margin:0 0 0 48px;
+    float: left;
+}
+#istatistiklerSayfaYazisi{
+    width: 100px;
+    height: auto;
+    margin: 10px 20px;
+    float:left;
+}
+#istatistikler a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+#istatistikler a:hover{
+    opacity: 0.6;
+}
+#Ürünler{
+    width: 249px;
+    height: 44px;
+    text-align: center;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    text-decoration: none;
+    transition: width 1s,height 1s,background-color 1s;
+}
+#Ürünler img{
+    margin: auto;
+    margin:0 0 0 48px;
+    float: left;
+    width: 32px;
+    height: 32px;
+}
+#Ürünler:hover{
+    width: 240px;
+    height: 45px;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+#ürünlerYazisi{
+    width: 100px;
+    height: auto;
+    margin: 10px 2px;
+    float:left;
+}
+#Ürünler a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+#Ürünler a:hover{
+    opacity: 0.6;
+}
+#anaEkran{
+    width:1267px;
+    height: 712px;
+    float: left;
+    background-color: #000000;
+}
+#urunBilgileri{
+    width: 100%;
+    height: 597px;
+    float: left;
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin-left: 5px;
+}
+#urunBilgileri::-webkit-scrollbar{
+    width: 0;
+}
+#urun{
+    width: 1250px;
+    height: 100px;
+    float: left;
+    background-color: #49494a;
+    margin-top: 5px;
+}   
+#resim{
+    width: 100px;
+    height: 80px;
+    margin:10px 10px 10px 110px;
+    float: left;
+ 
+}
+#resim img{
+    width: 100px;
+    height: 60px;
+}
+#urunEkle{
+    width: 250px;
+    height: 80px;
+    border: 1px solid;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-left: 500px;
+    margin-top: 20px;
+    background-color: #49494a;
+}
+#urunEkle a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s;
+}
+#urunEkle a:hover{
+    color:white;
+    background-color: #49494a;
+    border-color: rgb(0, 0, 0);
+}
+#kategoriAd{
+    width: 200px;
+    height: 80px;
+    float: left;
+    margin:10px 10px 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+}
+#model{
+    width: 250px;
+    height: 80px;
+    float: left;
+    margin:10px 10px 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+}
+#fiyat{
+    width: 200px;
+    height: 80px;
+    float: left;
+    margin:10px 10px 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+}
+#blok{
+    width: 200px;
+    height: 80px;
+    float: left;
+    margin:10px 10px 10px 20px;
+}
+#sil{
+    width: 200px;
+    height: 38px;
+    border: 1px solid gray;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    background-color:orangered;
+}
+#sil a{
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s;
+}
+#sil a:hover{
+    background-color: red;
+}
+#duzenle a{
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s;
+}
+#duzenle a:hover{
+    background-color:black;
+    color: white;
+    border-color: white;
+}
+#duzenle{
+    width: 200px;
+    height: 38px;
+    border: 1px solid gray;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cadetblue;
+}
+#cikis{
+    width: 249px;
+    height: 45px;
+    text-align: center;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: width 1s,height 1s,background-color 1s;
+}
+#cikis:hover{
+    width: 240px;
+    height: 44px;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+#cikis img{
+    margin: auto;
+    margin:0 0 0 48px;
+    float: left;
+}
+#cikisYazisi{
+    width: 100px;
+    height: auto;
+    margin: 10px 7px;
+    float:left;
+}
+#cikis a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+#cikis a:hover{
+    opacity: 0.6;
+}
+#kullanicilar{
+    width: 249px;
+    height: 44px;
+    text-align: center;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    text-decoration: none;
+    transition: width 1s,height 1s,background-color 1s;
+}
+#kullanicilar img{
+    margin: auto;
+    margin:0 0 0 48px;
+    float: left;
+    width: 32px;
+    height: 32px;
+}
+#Ürükullanicilarnler:hover{
+    width: 240px;
+    height: 45px;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+#kullanicilarYazisi{
+    width: 100px;
+    height: auto;
+    margin: 10px 0 0 17px;
+    float:left;
+}
+#kullanicilar a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+#kullanicilar a:hover{
+    opacity: 0.6;
+}
+#formSayfasi{
+    background-color: rgba(66, 64, 64,0.5);
+    color: white;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#duzenleForm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:rgb(22, 22, 22);
+    border-radius: 20px;
+    padding: 10px;
+    width: 30%;
+    height: 600px;
+}
+#duzenleForm input{
+    width: 200px;
+    height: 20px;
+    outline: none;
+    transition: all 0.3s;
+}
+#duzenleForm input:focus{
+    border-color: aqua;
+}
+#duzenleForm select{
+    width: 208px;
+    height: 25px;
+}
+#buton{
+    margin-top: 10px;
+    width: 208px;
+    height: 25px;
+    cursor: pointer;
+}
+#duzenleForm a,a input{
+    margin-top: 5px;
+    width: 208px;
+    height: 25px;
+    margin-left: 3px;
+    cursor: pointer;
+}
+#siparisler{
+    width: 249px;
+    height: 45px;
+    text-align: center;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: width 1s,height 1s,background-color 1s;
+}
+#siparisler:hover{
+    width: 240px;
+    height: 44px;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+#siparisler img{
+    width: 33px;
+    height: 33px;
+    margin: auto;
+    margin:0 0 0 48px;
+    float: left;
+}
+#siparislerYazisi{
+    width: 100px;
+    height: auto;
+    margin: 10px 7px;
+    float:left;
+}
+#siparisler a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+#siparisler a:hover{
+    opacity: 0.6;
+}
+#formSayfasi2{
+    background-color: rgba(66, 64, 64,0.5);
+    color: white;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s;
+}
+#duzenleForm2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:rgb(255, 0, 0);
+    border-radius: 20px;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+}
+#duzenleForm2 input{
+    width: 200px;
+    height: 20px;
+    outline: none;
+    transition: all 0.3s;
+    margin-top: 5px;
+    margin-left: 1px;
+    cursor: pointer;
+}
